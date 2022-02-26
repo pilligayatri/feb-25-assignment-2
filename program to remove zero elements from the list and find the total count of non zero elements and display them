@@ -1,0 +1,12 @@
+n=int(input("enter n numbers"))
+nonzero=[]
+l=[]
+c=0
+for i in range(1,n+1):
+    x=int(input())
+    l.append(x)
+for j in range(n):
+    if(l[J]!=0):
+        nonzero.append(l[j])
+        c=c+1
+print(c,nonzero)        
